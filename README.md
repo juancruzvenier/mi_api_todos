@@ -33,13 +33,14 @@ cd mi_api_todos
 
 ### 2. Crear un entorno virtual
 python -m venv venv
+En Linux: python3 -m venv venv
 
 ### 3. Activar el entorno virtual
 | Sistema | Comando |
 |---------|---------|
 | Windows (PowerShell) | .\venv\Scripts\Activate.ps1 |
 | Windows (CMD) | venv\Scripts\activate.bat |
-| Git Bash / Linux / macOS | source venv/Scripts/activate |
+| Git Bash / Linux / macOS | source venv/bin/activate |
 
 > Si PowerShell bloquea el script, ejecuta:
 > Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
